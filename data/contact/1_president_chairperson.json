@@ -2,7 +2,7 @@
   "contact" : [
     {
       "name" : "Nikunj Kothari",
-      "image" : "/gymkhananew/images/contact/nikunj.jpg",
+      "image" : "/website/images/contact/nikunj.jpg",
       "position": "President ",
       "council" :"Students' Gymkhana",
       "phone": "+91-9571268527",
@@ -15,7 +15,7 @@
     },
     {
       "name" : "Yash Maheshwari",
-      "image" : "/gymkhananew/images/contact/yash.jpg",
+      "image" : "/website/images/contact/yash.jpg",
       "position": "Chairperson ",
       "council" :"Students' Senate",
       "phone": "+91-9131200038",

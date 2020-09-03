@@ -2,7 +2,7 @@
   "contact" : [
     {
       "name" : "Vaibhav Chandra ",
-      "image" : "/gymkhananew/images/contact/vaibhav.jpg",
+      "image" : "/website/images/contact/vaibhav.jpg",
       "position": "General Secretary ",
       "council": "Media and Cultural" ,
       "phone": "+91-7355718217",
@@ -15,7 +15,7 @@
     },
     {
       "name" : "Mudit Agrawal",
-      "image" : "/gymkhananew/images/contact/mudit.jpg",
+      "image" : "/website/images/contact/mudit.jpg",
       "position": "General Secretary",
       "council": "Science and Technology " ,
       "phone": "+91-9340052571",
@@ -28,7 +28,7 @@
     },
     {
       "name" : "Soumarup Bhattacharyya",
-      "image" : "/gymkhananew/images/contact/soumarup.jpg",
+      "image" : "/website/images/contact/soumarup.jpg",
       "position": "General Secretary",
       "council": "Games and Sports" ,
       "phone": "+91 9005910555",
