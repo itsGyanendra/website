@@ -1,4 +1,5 @@
-baseURL = "http://itsgyanendra.github.io/gymkhananew/"
+baseURL = "https://StudentsGymkhanaIITK.github.io/website/"
 languageCode = "en-us"
 title = "Student Gymkhana | IITK"
 theme = "theme"
+publishDir = "docs"
