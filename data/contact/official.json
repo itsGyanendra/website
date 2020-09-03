@@ -1,0 +1,43 @@
+{
+  "contact" : [
+    {
+      "name" : "Gopal Singh Parihar",
+      "image" : "/gymkhananew/images/contact/gopal.jpg",
+      "position": "DPM",
+      "council" : " Students Gymkhana Office",
+      "phone": "+91-9450908004",
+      "mail":"gopalsp@iitk.ac.in",
+      "social": {
+        "facebook" : "https://facebook.com/damn",
+        "instagram" : "https://instagram.com/damn",
+        "linkedin" : "https://linkedin.com/add/damn"
+      }
+    },
+    {
+      "name" : "Ashish Srivastava",
+      "image" : "/gymkhananew/images/contact/ashishoffice.jpg",
+      "position": "Supervisor",
+      "council" : "Students Actvity Centre",
+      "phone": "+91-9307103686",
+      "mail":"saciitk1@gmail.com",
+      "social": {
+        "facebook" : "https://facebook.com/damn",
+        "instagram" : "https://instagram.com/damn",
+        "linkedin" : "https://linkedin.com/add/damn"
+      }
+    },
+    {
+      "name" : "Rahul Chaudhary",
+      "image" : "/gymkhananew/images/contact/rahul.jpg",
+      "position": "Supervisor",
+      "council" : "Students Actvity Centre",
+      "phone": "+91-8726190555",
+      "mail":"saciitk1@gmail.com",
+      "social": {
+        "facebook" : "https://facebook.com/damn",
+        "instagram" : "https://instagram.com/damn",
+        "linkedin" : "https://linkedin.com/add/damn"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "brand" : "Students' Gymkhana",
+  
+  "logoSrc" : "/gymkhananew/logo.png",
+  "links" : [
+    {
+      "title" : "Home",
+      "href" : ""
+    },
+    {
+      "title" : "About",
+      "href" : "#about"
+    },
+    {
+      "title" : "Councils",
+      "href" : "#council"
+    },
+    {
+      "title" : "Cells",
+      "href" : "#team"
+    },
+    {
+      "title" : "Students' Senate",
+      "href" : "https://students.iitk.ac.in/ss/home/"
+    },
+    {
+      "title" : "Contact",
+      "href" : "contact"
+    }
+  ]
+}

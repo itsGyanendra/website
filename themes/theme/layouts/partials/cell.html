@@ -1,0 +1,20 @@
+{{ $cell := .Site.Data.cell }}
+<section id="team" class="text-center py-5">
+  <div class="container">
+    <h2 style="font-size:45px" class=" h1">{{ $cell.title }}</h2>  
+    <p class="text-muted pb-5">{{ $cell.description }}</p>
+
+    <div class="members row justify-content-md-center mt-1">
+      {{ range $cell.members }}
+        <div class="col-12 col-lg-2 col-md-2 col-sm-2 mb-4">
+        <a href="{{ .officialwebsite }}" target="_blank">
+          <img class="mb-3 teamAvatar shadow" src="{{.Site.BaseURL}}images/cell/{{.avatar }}" alt="{{ .name }}">
+        </a>
+          <h4 class="h4">{{ .name }}</h4>
+          <div class="text-muted">{{ .description }}</div>
+          
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

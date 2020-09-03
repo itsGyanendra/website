@@ -1,0 +1,42 @@
+{
+  "title" : "Our Cells",
+  "description" : "For the smooth functioning of student gymkhana, 5 cells are established namely",
+  "members" : [
+    {
+      "name" : "Community Welfare Cell",
+      "description" : "",
+      "avatar" : "cwc.jpg",
+      "officialwebsite" : "https://cwciitk.wordpress.com/"
+      
+    },
+    {
+      "name" : "Election Commission",
+      "description" : "",
+      "avatar" : "ec.jpg",
+      "officialwebsite" : "https://students.iitk.ac.in/ec/"
+      
+    },
+    {
+      "name" : "Entrepreneurship Cell",
+      "description" : "",
+      "avatar" : "ecell.jpg",
+      "officialwebsite" : "https://www.ecelliitk.org/"
+      
+    },
+    {
+      "name" : "Outreach Cell",
+      "description" : "",
+      "avatar" : "outreach.jpg",
+      "officialwebsite" : "https://students.iitk.ac.in/outreach-cell/"
+      
+    },
+    
+    {
+      "name" : "Vox Populi",
+      "description" : "",
+      "avatar" : "vox.jpg",
+      "officialwebsite" : "https://voxiitk.com/"
+      
+    }
+  ]
+}
