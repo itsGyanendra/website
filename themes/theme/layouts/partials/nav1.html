@@ -1,4 +1,4 @@
-{{ $headers := .Site.Data.headers }}
+{{ $headers := .Site.Data.header }}
 {{- $logoSrc := printf "images/%s" $headers.logo | absURL -}}
 
 {{ if .Scratch.Get "navbarType" }}
@@ -17,7 +17,11 @@
           {{ range $headers.links }}
 
               <li class="nav-item">
-                <a class="nav-link" href="{{.Site.BaseURL}}{{ .href | relURL }}">{{ .title }}</a>
+                <a class="nav-link" href="{{.Site.BaseURL}}{{ .href | relURL }}"
+                {{if .external}}
+                target="_blank"
+                {{end}}
+                >{{ .title }}</a>
               </li>
               
             

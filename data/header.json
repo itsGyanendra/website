@@ -21,11 +21,13 @@
     },
     {
       "title" : "Students' Senate",
-      "href" : "https://students.iitk.ac.in/ss/home/"
+      "href" : "https://students.iitk.ac.in/ss/home/",
+      "external" : "yes"
     },
     {
       "title" : "Constitution",
-      "href" : "https://students.iitk.ac.in/ss/home/constitution/"
+      "href" : "https://students.iitk.ac.in/ss/home/constitution/",
+      "external": "yes"
     },
     {
       "title" : "Contact",
