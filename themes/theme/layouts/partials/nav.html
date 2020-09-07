@@ -12,7 +12,9 @@
           {{ range $header.links }}
 
               <li class="nav-item">
-                <a class="nav-link" href="{{.Site.BaseURL}}{{ .href | relURL }}">{{ .title }}</a>
+                <a class="nav-link" href="{{.Site.BaseURL}}{{ .href | relURL }}"{{if .external}}
+                target="_blank"
+                {{end}} >{{ .title }}</a>
               </li>
               
             
@@ -23,7 +25,7 @@
             
             {{ range $key, $value := .Site.Data.social }}
             <li class="nav-item" style="font-size: 22px">
-              <a href="{{ $value }}" class="ml-3 text-white btn-{{ $key }}"><i class="fab fa-{{ $key }}"></i></a>
+              <a href="https://{{ $key }}.com/{{ $value }}" class="ml-3 text-white btn-{{ $key }}"><i class="fab fa-{{ $key }}"></i></a>
             </li>
             {{ end }}
           

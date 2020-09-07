@@ -1,14 +1,17 @@
 {
   "title" : "Our Cells",
   "description" : "For the smooth functioning of student gymkhana, 5 cells are established namely",
-  "members" : [
-    {
+  "activemembers" :[
+  	{
       "name" : "Community Welfare Cell",
       "description" : "",
       "avatar" : "cwc.jpg",
       "officialwebsite" : "https://cwciitk.wordpress.com/"
       
-    },
+    }
+  ],
+  "members" : [
+    
     {
       "name" : "Election Commission",
       "description" : "",
