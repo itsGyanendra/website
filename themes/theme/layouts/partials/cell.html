@@ -34,39 +34,47 @@
 <div class="container">
     <h2 style="font-size:45px" class=" h1">{{ $cell.title }}</h2>  
     <p class="text-muted pb-5">{{ $cell.description }}</p>
-<div id="cells" class="carousel slide" data-ride="carousel">
+	<div id="cells" class="carousel slide" data-ride="carousel">
   
-  <div class="carousel-inner">
+  		<div class="carousel-inner">
   
-    <div class="carousel-item active">
-      {{ range $cell.activemembers }}
-      <center><a href="{{ .officialwebsite }}" target="_blank">
-          <img class="mb-3 teamAvatar shadow rounded-circle" src="{{.Site.BaseURL}}images/cell/{{.avatar }}" alt="{{ .name }}" width="250" height="250">
-        </a>
-          <h4 class="h4">{{ .name }}</h4>
-          <div class="text-muted">{{ .description }}</div></center>
-          {{end}}
-    </div>
-    {{ range $cell.members }}
-    <div class="carousel-item">
-    <center>
-      <img class="mb-3 teamAvatar shadow rounded-circle" src="{{.Site.BaseURL}}images/cell/{{.avatar }}" alt="{{ .name }}" width="250" height="250">
-        </a>
-          <h4 class="h4">{{ .name }}</h4>
-          <div class="text-muted">{{ .description }}</div></center>
-    </div>
-    {{end}}
- 
-  <a class="carousel-control-prev" href="#ccell" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#cell" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-</div>
+    			<div class="carousel-item active">
+      			{{ range $cell.activemembers }}
+      				<center>
+      					<a href="{{ .officialwebsite }}" target="_blank">
+          					<img class="mb-3 teamAvatar shadow rounded-circle" src="{{.Site.BaseURL}}images/cell/{{.avatar }}" alt="{{ .name }}" width="250" height="250">
+        				</a>
+          				<h4 class="h4">{{ .name }}</h4>
+          				<div class="text-muted">
+          					{{ .description }}
+          				</div>
+          			</center>
+          		{{end}}
+    			</div>
+    			{{ range $cell.members }}
+    			<div class="carousel-item">
+    				<center>
+    					<a href="{{ .officialwebsite }}" target="_blank">
+      						<img class="mb-3 teamAvatar shadow rounded-circle" src="{{.Site.BaseURL}}images/cell/{{.avatar }}" alt="{{ .name }}" width="250" height="250">
+        				</a>
+          				<h4 class="h4">{{ .name }}</h4>
+          				<div class="text-muted">
+          					{{ .description }}
+          				</div>
+          			</center>
+    			</div>
+    			{{end}}
+		</div> 
+  		<a class="carousel-control-prev" href="#cells" role="button" data-slide="prev">
+    			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    			<span class="sr-only">Previous</span>
+  		</a>
+  		<a class="carousel-control-next" href="#cells" role="button" data-slide="next">
+   			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+   			<span class="sr-only">Next</span>
+  		</a>
+		
+	</div>
 </div>
 </div>
 </section>

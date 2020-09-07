@@ -21,12 +21,12 @@ $(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip();
 
   //Smooth scroll
-  $('a').click(function(){
+  /* $('a').click(function(){
     var hash = $(this).attr('href').split('#')[1];
     $('html, body').animate({
         scrollTop: $('#' + hash).offset().top
     }, 500);
     return false;
-  });
+  }); */
 
 });
