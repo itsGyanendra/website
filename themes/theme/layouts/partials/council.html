@@ -21,13 +21,13 @@
               {{ range $council.content }}
               <div class="row features bg-white shadow p-3 mb-3 rounded">
                   <div class="col-lg-2 col-12">
-                    <div ><a href="{{ .officialwebsite }}" target="_blank">
+                    <div ><a href="{{ .officialwebsite }}" target="_blank" rel="noopener" aria-label="{{ .title }}">
                     <img src="images/council/{{ .logo }}" class="rounded-circle" width="75" height="75" style =" -moz-box-shadow: 0px 6px 5px #ccc;
   -webkit-box-shadow: 0px 6px 5px #ccc;
   box-shadow: 0px 6px 5px #ccc;
   -moz-border-radius:190px;
   -webkit-border-radius:190px;
-  border-radius:190px;">
+  border-radius:190px;" alt="{{ .title }}">
   </a>
   </div>
                   </div>

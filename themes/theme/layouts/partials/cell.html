@@ -8,8 +8,8 @@
     <div class="members row justify-content-md-center mt-1">
     {{ range $cell.activemembers }}
         <div class="col-12 col-lg-2 col-md-2 col-sm-2 mb-4">
-        <a href="{{ .officialwebsite }}" target="_blank">
-          <img class="mb-3 teamAvatar shadow" src="{{.Site.BaseURL}}images/cell/{{.avatar }}" alt="{{ .name }}">
+        <a href="{{ .officialwebsite }}" target="_blank" rel="noopener">
+          <img class="mb-3 teamAvatar shadow" src="{{.Site.BaseURL}}images/cell/{{.avatar }}" alt="{{ .name }}" aria-label="{{ .name }}">
         </a>
           <h4 class="h4">{{ .name }}</h4>
           <div class="text-muted">{{ .description }}</div>
@@ -18,8 +18,8 @@
       {{ end }}
       {{ range $cell.members }}
         <div class="col-12 col-lg-2 col-md-2 col-sm-2 mb-4">
-        <a href="{{ .officialwebsite }}" target="_blank">
-          <img class="mb-3 teamAvatar shadow" src="{{.Site.BaseURL}}images/cell/{{.avatar }}" alt="{{ .name }}">
+        <a href="{{ .officialwebsite }}" target="_blank" rel="noopener">
+          <img class="mb-3 teamAvatar shadow" src="{{.Site.BaseURL}}images/cell/{{.avatar }}" alt="{{ .name }}" aria-label="{{ .name }}">
         </a>
           <h4 class="h4">{{ .name }}</h4>
           <div class="text-muted">{{ .description }}</div>
@@ -41,8 +41,8 @@
     			<div class="carousel-item active">
       			{{ range $cell.activemembers }}
       				<center>
-      					<a href="{{ .officialwebsite }}" target="_blank">
-          					<img class="mb-3 teamAvatar shadow rounded-circle" src="{{.Site.BaseURL}}images/cell/{{.avatar }}" alt="{{ .name }}" width="200" height="200">
+      					<a href="{{ .officialwebsite }}" target="_blank" rel="noopener">
+          					<img class="mb-3 teamAvatar shadow rounded-circle" src="{{.Site.BaseURL}}images/cell/{{.avatar }}" alt="{{ .name }}" width="200" height="200" aria-label="{{ .name }}">
         				</a>
           				<h4 class="h4">{{ .name }}</h4>
           				<div class="text-muted">
@@ -54,7 +54,7 @@
     			{{ range $cell.members }}
     			<div class="carousel-item">
     				<center>
-    					<a href="{{ .officialwebsite }}" target="_blank">
+    					<a href="{{ .officialwebsite }}" target="_blank" rel="noopener" aria-label="{{ .name }}">
       						<img class="mb-3 teamAvatar shadow rounded-circle" src="{{.Site.BaseURL}}images/cell/{{.avatar }}" alt="{{ .name }}" width="200" height="200">
         				</a>
           				<h4 class="h4">{{ .name }}</h4>
