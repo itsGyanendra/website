@@ -5,7 +5,7 @@
   	{
       "name" : "Community Welfare Cell",
       "description" : "",
-      "avatar" : "cwc.jpg",
+      "avatar" : "cwc.webp",
       "officialwebsite" : "https://cwciitk.wordpress.com/"
       
     }
@@ -15,21 +15,21 @@
     {
       "name" : "Election Commission",
       "description" : "",
-      "avatar" : "ec.jpg",
+      "avatar" : "ec.webp",
       "officialwebsite" : "https://students.iitk.ac.in/ec/"
       
     },
     {
       "name" : "Entrepreneurship Cell",
       "description" : "",
-      "avatar" : "ecell.jpg",
+      "avatar" : "ecell.webp",
       "officialwebsite" : "https://www.ecelliitk.org/"
       
     },
     {
       "name" : "Outreach Cell",
       "description" : "",
-      "avatar" : "outreach.jpg",
+      "avatar" : "outreach.webp",
       "officialwebsite" : "https://students.iitk.ac.in/outreach-cell/"
       
     },
@@ -37,7 +37,7 @@
     {
       "name" : "Vox Populi",
       "description" : "",
-      "avatar" : "vox.jpg",
+      "avatar" : "vox.webp",
       "officialwebsite" : "https://voxiitk.com/"
       
     }
