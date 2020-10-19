@@ -1,0 +1,16 @@
+{
+  "contact" : [
+    {
+      "name" : "Nikunj Kothari",
+      "image" : "/website/images/contact/nikunj.jpg",
+      "position": "President ",
+      "council" :"Students' Gymkhana",
+      "phone": "+91-9571268527",
+      "mail":"presidentsg@iitk.ac.in",
+      "social": {
+        "facebook" : "https://www.facebook.com/nikunj.kothari.182",
+        "linkedin" : "https://in.linkedin.com/in/nikunj-kothari-494360166"
+      }
+    }
+  ]
+}

@@ -4,7 +4,7 @@
 {{ $description := $about.description }}
 <section id="about" class=" py-5">
 	<div class="container" >
-	<h2 style="font-size:45px" class=" h1">{{ $title }}</h2>
+		<h2 style="font-size:45px" class=" h1">{{ $title }}</h2>
 		<div>
 		{{ range $about.description }}
     			<p>{{ .description}}</p>
@@ -12,7 +12,7 @@
     			
     			<p id="extra_content" class="extra_content">{{ $about.moredescription }} </p>
     			<button id="read_more" class="read_more btn-primary">Read More</button>
-</div>
+		</div>
 	</div>
 </section>
 <style>

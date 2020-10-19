@@ -3,11 +3,11 @@
 <section style ="h1{float:left; width:100%; color:#232323; margin-bottom:30px; font-size: 14px;}
 h1 span{font-family: 'Libre Baskerville', serif; display:block; font-size:45px; text-transform:none; margin-bottom:20px; margin-top:30px; font-weight:700}
 h1 a{color:#131313; font-weight:bold;}">
-    	<div class="container">
+    	<div class="container-fluid">
     	{{ range $contact }}
     	     	<div class="row justify-content-md-center">
     	     	{{ range .contact }}
-			<div class="col-md-4" style ="padding-top:10px;padding-bottom:10px;">
+			<div class="col-md-3" style ="padding-top:10px;padding-bottom:10px;">
     		    		<div class="card profile-card-3">
     		        		<div class="background-block">
     		            			<img src="{{ .bgimage }}" alt="" class="background"/>
@@ -16,7 +16,7 @@ h1 a{color:#131313; font-weight:bold;}">
     		            			<img src="{{ .image }}" alt="{{ .name }}" class="profile"/>
     		        		</div>
     		        		<div class="card-content">
-                    				<h2>{{ .name }}<small>{{ .position }}</small><small>{{.council}}</small></h2>
+                    				<h2>{{ .name }}<small>{{ .position }},{{.council}}</small></h2>
                     			
                      				<p>
 <a href="tel:{{ .phone }}" class ="ml-2 btn btn-sm btn-filled btn-phone"><i class="fa-flip-horizontal fa fa-phone"></i></a>   {{ .phone}}</p>
@@ -41,11 +41,15 @@ h1 a{color:#131313; font-weight:bold;}">
 </section>
 
 <section id="map" class=" py-5">
-	<div class="container" >
-	<h2 style="font-size:45px" class=" h1">Reach Us</h2>
-		<div>
-    			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14280.968189588459!2d80.2329!3d26.5123388!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3afbe880abc38436!2sIndian%20Institute%20of%20Technology%20Kanpur!5e0!3m2!1sen!2sin!4v1599501460976!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" ></iframe>
-</div>
+	<div class="container-fluid" >
+		<div class="row justify-content-md-center">
+			<div class="col-md-9" style ="padding-top:10px;padding-bottom:10px;">
+				<h2 style="font-size:45px" class=" h1">Reach Us</h2>
+				<div>
+    					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14280.968189588459!2d80.2329!3d26.5123388!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3afbe880abc38436!2sIndian%20Institute%20of%20Technology%20Kanpur!5e0!3m2!1sen!2sin!4v1599501460976!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" ></iframe>
+				</div>
+			</div>
+		</div>
 	</div>
 </section>
 <style type="text/css">
@@ -73,7 +77,7 @@ section{
   overflow: hidden;
   width: 100%;
   text-align: center;
-  height:600px;
+  height:500px;
   border:none;
 }
 .profile-card-3 .background-block {

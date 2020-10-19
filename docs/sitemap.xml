@@ -3,7 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://itsgyanendra.github.io/website/cells/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://itsgyanendra.github.io/website/contact/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://itsgyanendra.github.io/website/councils/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://itsgyanendra.github.io/website/fest/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://itsgyanendra.github.io/website/students-senate/</loc>
     <priority>0</priority>
   </url>
   

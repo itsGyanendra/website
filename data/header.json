@@ -13,16 +13,19 @@
     },
     {
       "title" : "Councils",
-      "href" : "#council"
+      "href" : "councils"
     },
     {
       "title" : "Cells",
-      "href" : "#team"
+      "href" : "cells"
+    },
+    {
+      "title" : "Fests",
+      "href" : "fest"
     },
     {
       "title" : "Students' Senate",
-      "href" : "https://students.iitk.ac.in/ss/home/",
-      "external" : "yes"
+      "href" : "students-senate"
     },
     {
       "title" : "Constitution",
