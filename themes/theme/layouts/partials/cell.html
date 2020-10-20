@@ -42,7 +42,7 @@
       			{{ range $cell.activemembers }}
       				<center>
       					<a href="{{ .officialwebsite }}" target="_blank" rel="noopener">
-          					<img class="mb-3 teamAvatar shadow rounded-circle" src="{{.Site.BaseURL}}images/cell/{{.avatar }}" alt="{{ .name }}" width="200" height="200" aria-label="{{ .name }}">
+          					<img class="mb-3 teamAvatar shadow rounded-circle" src="{{.Site.BaseURL}}/website/images/cell/{{.avatar }}" alt="{{ .name }}" width="200" height="200" aria-label="{{ .name }}">
         				</a>
           				<h4 class="h4">{{ .name }}</h4>
           				<div class="text-muted">
@@ -55,7 +55,7 @@
     			<div class="carousel-item">
     				<center>
     					<a href="{{ .officialwebsite }}" target="_blank" rel="noopener" aria-label="{{ .name }}">
-      						<img class="mb-3 teamAvatar shadow rounded-circle" src="{{.Site.BaseURL}}images/cell/{{.avatar }}" alt="{{ .name }}" width="200" height="200">
+      						<img class="mb-3 teamAvatar shadow rounded-circle" src="{{.Site.BaseURL}}/website/images/cell/{{.avatar }}" alt="{{ .name }}" width="200" height="200">
         				</a>
           				<h4 class="h4">{{ .name }}</h4>
           				<div class="text-muted">
@@ -93,4 +93,8 @@
                 display: none; 
             } 
         } 
+        .carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
 </style>
