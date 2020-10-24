@@ -1,11 +1,11 @@
 {{ $fest := .Site.Data.fest }}
 {{ $title := $fest.title }}
 {{ $description := $fest.description }}
-<section id="fest" class="py-5">
-	<div class="container-fluid" >
+<section id="fest" class="py-5 bg-light">
+	<div class="container" >
 		<div class ="row">
-			<div class ="offset-md-2 col-md-9">
-				<h2 style="font-size:45px" class=" h1">{{ $title }}</h2>
+			<div class ="col-12">
+				<h2 style="font-size:45px" class=" h1 text-center">{{ $title }}</h2>
 			
 			{{ range $fest.description }}
     				<p>{{ .description}}</p>
@@ -15,7 +15,36 @@
 		
 	</div>
 	
-		
+	<div class="container" style ="padding-top:20px;">
+
+    <div class="row">
+    
+      <div class="col-lg-12 col-12">
+          
+              {{ range $fest.content }}
+              <div class="row features bg-white shadow p-3 mb-3 rounded">
+                  <div class="col-lg-2 col-12">
+                    <div ><a href="{{ .officialwebsite }}" target="_blank" rel="noopener" aria-label="{{ .title }}">
+                    <img src="{{ .Site.BaseURL }}/website/images/fest/{{ .logo }}" class="rounded-circle" width="150" height="150" style =" -moz-box-shadow: 0px 6px 5px #ccc;
+  -webkit-box-shadow: 0px 6px 5px #ccc;
+  box-shadow: 0px 6px 5px #ccc;
+  -moz-border-radius:190px;
+  -webkit-border-radius:190px;
+  border-radius:190px;" alt="{{ .title }}">
+  </a>
+  </div>
+                  </div>
+                  <div class="col-10 feststyle" style="">
+                  	<h4 class="h4">{{ .title }}</h4>                      
+                      <p style="font-size:15px;" class="text-muted">{{ .description }}</p>
+                  </div>
+                </div>
+              {{end}}
+           
+      </div>
+    </div>
+  </div>
+  	
 </section>
 
 
@@ -25,6 +54,9 @@
         @media only screen and (max-width: 768px) { 
             .larges { 
                 display: none; 
+            }
+            .feststyle {
+            	padding-top:20px;
             } 
         } 
   
@@ -33,6 +65,9 @@
         @media only screen and (min-width: 768px) { 
             .smalls { 
                 display: none; 
+            }
+            .feststyle {
+            	padding-left:50px;
             } 
         } 
 .carousel-control-next,
