@@ -2,7 +2,7 @@
   "contact" : [
     {
       "name" : "Bhavjeet Singh ",
-      "image" : "/website/images/contact/bhavjeet.jpg",
+      "image" : "bhavjeet.webp",
       "position": "UG Secretary ",
       "council": "Academics and Career ",
       "phone": "+91-7973478073",
@@ -14,7 +14,7 @@
     },
     {
       "name" : "Ashish Kumar Mishra",
-      "image" : "/website/images/contact/ashish.jpg",
+      "image" : "ashish.webp",
       "position": "PG Secretary",
       "council": "Academics and Career ",
       "phone": "+91-9958702237",

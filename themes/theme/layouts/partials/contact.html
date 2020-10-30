@@ -10,10 +10,10 @@ h1 a{color:#131313; font-weight:bold;}">
 			<div class="col-md-3" style ="padding-top:10px;padding-bottom:10px;">
     		    		<div class="card profile-card-3">
     		        		<div class="background-block">
-    		            			<img src="{{ .bgimage }}" alt="" class="background"/>
+    		            			<img src="{{ .Site.BaseURL }}../images/contact/{{ .bgimage }}" alt="" class="background"/>
     		        		</div>
     		        		<div class="profile-thumb-block">
-    		            			<img src="{{ .image }}" alt="{{ .name }}" class="profile"/>
+    		            			<img src="{{ .Site.BaseURL }}../images/contact/{{ .image }}" alt="{{ .name }}" class="profile"/>
     		        		</div>
     		        		<div class="card-content">
                     				<h2>{{ .name }}<small>{{ .position }},{{.council}}</small></h2>
