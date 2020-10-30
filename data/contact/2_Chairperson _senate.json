@@ -1,0 +1,16 @@
+{
+  "contact" : [
+    {
+      "name" : "Yash Maheshwari",
+      "image" : "yash.webp",
+      "position": "Chairperson ",
+      "council" :"Students' Senate",
+      "phone": "+91-9131200038",
+      "mail":"chair_ss@iitk.ac.in",
+      "social": {
+        "facebook" : "https://www.facebook.com/Yash.DFTBA",
+        "linkedin" : "https://www.linkedin.com/in/yashmaheshwari61/"
+      }
+    }
+  ]
+}

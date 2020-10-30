@@ -1,0 +1,5 @@
+baseURL = "https://students.iitk.ac.in/gymkhana"
+languageCode = "en-us"
+title = "Students' Gymkhana - IIT Kanpur"
+theme = "theme"
+publishDir = "docs"

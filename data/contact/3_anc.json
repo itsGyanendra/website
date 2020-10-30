@@ -1,0 +1,27 @@
+{
+  "contact" : [
+    {
+      "name" : "Bhavjeet Singh ",
+      "image" : "bhavjeet.webp",
+      "position": "UG Secretary ",
+      "council": "Academics and Career ",
+      "phone": "+91-7973478073",
+      "mail":"ug_anc@iitk.ac.in",
+      "social": {
+        "facebook" : "https://www.facebook.com/bhavjeetsingh.singh.90",
+        "linkedin" : "https://www.linkedin.com/in/bhavjeet-singh-571932165/"
+      }
+    },
+    {
+      "name" : "Ashish Kumar Mishra",
+      "image" : "ashish.webp",
+      "position": "PG Secretary",
+      "council": "Academics and Career ",
+      "phone": "+91-9958702237",
+      "mail":"pg_anc@iitk.ac.in",
+      "social": {
+        "facebook" : "https://www.facebook.com/tejasiitbhu"
+      }
+    }
+  ]
+}

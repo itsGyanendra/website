@@ -1,0 +1,41 @@
+{
+  "contact" : [
+     {
+      "name" : "Soumarup Bhattacharyya",
+      "image" : "soumarup.webp",
+      "position": "General Secretary",
+      "council": "Games and Sports" ,
+      "phone": "+91 9005910555",
+      "mail":"sportsecy@iitk.ac.in",
+      "social": {
+        "facebook" : "https://www.facebook.com/profile.php?id=100020348673014"
+      }
+    },
+    {
+      "name" : "Vaibhav Chandra ",
+      "image" : "vaibhav.webp",
+      "position": "General Secretary ",
+      "council": "Media and Cultural" ,
+      "phone": "+91-7355718217",
+      "mail":"mncsecy@iitk.ac.in",
+      "social": {
+        "facebook" : "https://www.facebook.com/vaiibhavvv",
+
+        "linkedin" : "https://www.linkedin.com/in/vaibhav-chandra-19023a159/"
+      }
+    },
+    {
+      "name" : "Mudit Agrawal",
+      "image" : "mudit.webp",
+      "position": "General Secretary",
+      "council": "Science and Technology " ,
+      "phone": "+91-9340052571",
+      "mail":"sntsecy@iitk.ac.in",
+      "social": {
+        "facebook" : "https://www.facebook.com/mudit.agrawal.1426",
+        "linkedin" : "https://www.linkedin.com/in/mudit-agrawal-660a4a166/"
+      }
+    }
+   
+  ]
+}
